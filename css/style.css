@@ -22,7 +22,7 @@ ul li {
 
 .title {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 34px;
     text-transform: uppercase;
 }
 .sub-title {
@@ -31,7 +31,23 @@ ul li {
     text-transform: uppercase;
 }
 
+a.llamar {
+    color: #fff;
+    background: #ff0067;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: block;
+    width: 130px;
+    text-align: center;
+    padding: 6px;
+}
+
 /* Navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+}
+
 .navbar ul {
     display: flex;
     align-items: center;
@@ -90,6 +106,11 @@ ul li {
     align-items: center;
 }
 
+.servicios .gallery {
+    height: 320px;
+    width: 100%;
+}
+
 .servicios .caption {
     position: absolute;
     left: -35%;
@@ -106,13 +127,15 @@ ul li {
     color: #000;
 }
 
+.contacto form button {
+    background: #ff0067;
+    border: none;
+    width: 100px;
+}
+
 /* Valores */
 
 @media (min-width: 992px) {
-    p {
-        font-size: 18px;
-    }
-
     .valores {
         height: 500px;
         display: flex;
