@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body {
+    background: #f4f4f4;
+}
+
+.row {
+    margin: 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+/* Home */
+.home {
+    height: 100vh;
+    background-image: url(../images/Portada.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 50px;
+}
+.home h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+/* Ofertas */
+.ofertas .col-md-4 {
+    padding: 0;
+    color: #fff;
+}
+
+.ofertas .col-md-4 .caption {
+    position: absolute;
+    bottom: 40px;
+    padding: 10px 30px;
+}
+/* Servicios */
+
+.servicios p {
+    font-size: 16px;
+}
+.servicios h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.servicios .col-md-7 {
+    display: flex;
+    align-items: center;
+}
+
+.servicios .caption {
+    position: absolute;
+    left: -35%;
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+}
+
+.contacto .icon {
+    width: 50px;
+}
+
+.contacto a {
+    color: #000;
+}
+
+/* Valores */
+
+@media (min-width: 992px) {
+    p {
+        font-size: 18px;
+    }
+
+    .valores {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
